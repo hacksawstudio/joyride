@@ -124,7 +124,10 @@
           structure[s].$target.addClass(this.options.joyrideTargetClass);
 
         } else { // not target, create modal with Reveal
-          var modal = new Foundation.Reveal($('<div class="reveal joyride"/>').appendTo($('body')));
+          var modal = new Foundation.Reveal($('<div class="reveal joyride"/>').appendTo($('body')), {
+            closeOnClick: false,
+            closeOnEsc: false
+          });
           this.structure[s].item = modal;
           $item = modal.$element;
         }
