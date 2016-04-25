@@ -11,19 +11,19 @@
 
 /// Default padding of the joyride background.
 /// @type Number
-$joyride-padding: 0.5em;
+$joyride-padding: 0.5em!default;
 
 /// Default font size for joyride tiems.
 /// @type Number
-$joyride-font-size: 100%;
+$joyride-font-size: 100%!default;
 
 /// Default min-width of joyride items.
 /// @type Number
-$joyride-min-width: 20rem;
+$joyride-min-width: 20rem!default;
 
 /// Margin between the buttons to navigate.
 /// @type Number
-$joyride-button-space: 0.5em;
+$joyride-button-space: 0.5em!default;
 
 [data-joyride] {
   display: none;
